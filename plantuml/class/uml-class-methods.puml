@@ -1,0 +1,51 @@
+@startuml
+title A Dummy Example
+
+Object : equals()
+
+Object <|-- ArrayList
+ArrayList : Object[] elementData
+ArrayList : size()
+ArrayList : length()
+ArrayList : init()
+ArrayList : ddd()
+
+Object <|-- SimpleList
+SimpleList : Object[] elementData
+SimpleList : size()
+SimpleList : length()
+SimpleList : init()
+SimpleList : ddd()
+
+Object <|-- SimpleList2
+SimpleList2 : Object[] elementData
+SimpleList2 : size()
+
+Object <|-- SimpleList3
+SimpleList3 : Object[] elementData
+SimpleList3 : size()
+
+Object <|-- SimpleList4
+SimpleList4 : Object[] elementData
+SimpleList4 : size()
+
+Object <|-- SimpleList5
+SimpleList5 : Object[] elementData
+SimpleList5 : size()
+
+Object <|-- SimpleList6
+SimpleList6 : Object[] elementData
+SimpleList6 : size()
+
+Object <|-- SimpleList7
+SimpleList7 : Object[] elementData
+SimpleList7 : size()
+
+Object <|-- SimpleList8
+SimpleList8 : Object[] elementData
+SimpleList8 : size()
+
+Object <|-- SimpleList9
+SimpleList9 : Object[] elementData
+SimpleList9 : size()
+@enduml

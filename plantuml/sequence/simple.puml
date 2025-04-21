@@ -1,0 +1,6 @@
+@startuml
+Alice -> Bob: Send a message
+Bob --> Alice: Reply
+Alice -->> Bob: Send another message
+Bob ->> Alice: Reply again
+@enduml
