@@ -1,3 +1,9 @@
 @startuml
-Alice -> Bob: test
+actor Alice
+Alice -> Frontend : Register
+activate Frontend
+deactivate Frontend
+Frontend -> Alice : Redirect and render register form
+Alice -> Frontend : Submit the register form
+Frontend -> Backend : Submit the form values
 @enduml
